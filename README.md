@@ -26,3 +26,9 @@ download and evaluation progress updates every 5 seconds.
 
 Run all frames after tracking failure: `uv run evaluate.py --termination none`.
 This records full-motion errors under a separate protocol; success still requires no failure.
+
+## Checkpoint source
+
+[EGalahad/mimic-lite](https://github.com/EGalahad/mimic-lite/blob/3253810ce21dbcc05d8f4942a017ea3eaffc6cf1/README.md) · [PPO / policy.onnx](https://drive.google.com/drive/folders/1xRmcOX0l-YIpqxUuCmW4s6Dl0HStbJSL). Author-released checkpoint.
+
+The author README links this PPO Drive folder, whose recorded listing contains the exact policy file ID used by the adapter. The download host is Google Drive, not a separate model publisher.

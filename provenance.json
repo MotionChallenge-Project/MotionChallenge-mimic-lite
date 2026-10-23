@@ -8,5 +8,16 @@
   "author_inference_review": "pending",
   "benchmark_physics": "shared G1 canonical profile, not the author training simulator",
   "legacy_results": "not transferable to this adapter revision without rerunning",
-  "redistribution": "checkpoint not distributed in Git; obtain from recorded upstream URL under its original terms"
+  "redistribution": "checkpoint not distributed in Git; obtain from recorded upstream URL under its original terms",
+  "checkpoint_origin": {
+    "author_release_url": "https://github.com/EGalahad/mimic-lite/blob/3253810ce21dbcc05d8f4942a017ea3eaffc6cf1/README.md",
+    "author_release_label": "EGalahad/mimic-lite",
+    "kind": "author_file",
+    "kind_label": "Author-released checkpoint",
+    "artifact_page_url": "https://drive.google.com/drive/folders/1xRmcOX0l-YIpqxUuCmW4s6Dl0HStbJSL",
+    "original_filename": "PPO / policy.onnx",
+    "verification": "The author README links this PPO Drive folder, whose recorded listing contains the exact policy file ID used by the adapter. The download host is Google Drive, not a separate model publisher.",
+    "download_url": "https://drive.usercontent.google.com/download?id=1UsdiBBQuhFcLSXvITjjhuSY-vhMrxYuy&export=download",
+    "sha256": "031b8d67557795d86e4ed3f30e7a707414534feba65f330c64f1b07a1f5c7a0b"
+  }
 }
