@@ -1,0 +1,20 @@
+{
+  "source_repository": "https://github.com/EGalahad/sim2real",
+  "source_commit": "287ac157e6a7143340da7a9fc2fa5ff552031bc8",
+  "release_source_commit": "3253810ce21dbcc05d8f4942a017ea3eaffc6cf1",
+  "files": {
+    "sim2real/rl_policy/base_policy.py": "3fdb46a381181dfaf390706678e47f312928add108980f97443f1e4b95e89488",
+    "sim2real/rl_policy/observations/base.py": "0f0fac0fea48abf745e42447361ca134b2f924587687583db7fbc101aa356807",
+    "sim2real/rl_policy/observations/common.py": "d0890a3a7fa9eb126f8f363a22f4fefd97ac9dc8dde0440ae8aba6a29c352a66",
+    "sim2real/rl_policy/observations/mimic_lite.py": "751a130d3d85070043c23bebf63c1239320b3c733fd4f8db27ac5f494fee181c",
+    "sim2real/rl_policy/observations/motion.py": "be005df401d24508f8076a50403f91c97a6a66ddbff57d93427fb623ec447dd6",
+    "sim2real/rl_policy/utils/state_processor.py": "aadb50bfd342f2519ba7a57c874a28bbd62e3473112587567f3953cdc26f873a",
+    "sim2real/utils/math.py": "79b5f4e1475532cbd703dc6eef5fecafe44dc155c4d6e04e243251ca4092ebcb",
+    "sim2real/utils/strings.py": "fd7c864930d1203ff31fb41ca0b1d1b516cb044eb26e586dd22a8b6fea3fd7cb",
+    "sim2real/rl_policy/inference/onnx_module.py": "7bba9b0e829c7466ca0d2867379237c558dfe04625666e057d6f62053b7824a2",
+    "sim2real/rl_policy/tracking.py": "9fed747753416bcf662743df524535e4d173aeab05c4db35b5b882358d308704",
+    "sim2real/rl_policy/utils/motion.py": "ee46cac09da1801713504809dfa8954f85b0dfb741b2e61b1c1ef46af388e274"
+  },
+  "author_config_sha256": "fa094087fc24d3e4b68857301c0c3f5d6f4992148d8e171a22088c7299440878",
+  "author_config_release": "https://drive.google.com/drive/folders/1xRmcOX0l-YIpqxUuCmW4s6Dl0HStbJSL"
+}

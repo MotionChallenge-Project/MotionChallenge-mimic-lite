@@ -3,9 +3,9 @@
   "submitter": "Motion Challenge",
   "submission_type": "maintainer reproduction, not author submission",
   "upstream": "https://github.com/EGalahad/mimic-lite",
-  "source_commit": null,
+  "source_commit": "3253810ce21dbcc05d8f4942a017ea3eaffc6cf1",
   "checkpoint_sha256": "031b8d67557795d86e4ed3f30e7a707414534feba65f330c64f1b07a1f5c7a0b",
-  "author_inference_review": "pending",
+  "author_inference_review": "passed: 160 cases, 4 resets, near-vertical heading fallback and raw action target",
   "benchmark_physics": "shared G1 canonical profile, not the author training simulator",
   "legacy_results": "not transferable to this adapter revision without rerunning",
   "redistribution": "checkpoint not distributed in Git; obtain from recorded upstream URL under its original terms",
@@ -19,5 +19,9 @@
     "verification": "The author README links this PPO Drive folder, whose recorded listing contains the exact policy file ID used by the adapter. The download host is Google Drive, not a separate model publisher.",
     "download_url": "https://drive.usercontent.google.com/download?id=1UsdiBBQuhFcLSXvITjjhuSY-vhMrxYuy&export=download",
     "sha256": "031b8d67557795d86e4ed3f30e7a707414534feba65f330c64f1b07a1f5c7a0b"
-  }
+  },
+  "author_inference_repository": "https://github.com/EGalahad/sim2real",
+  "author_inference_commit": "287ac157e6a7143340da7a9fc2fa5ff552031bc8",
+  "native_validation": "validation/native-parity.json",
+  "correction": "Use the author horizontal x-axis heading with signed z-axis fallback near vertical poses, replacing quaternion w/z projection. Full benchmark rerun is required."
 }

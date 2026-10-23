@@ -49,9 +49,11 @@
       ]
     }
   },
-  "provenance_status": "author-inference review in progress",
+  "provenance_status": "author-inference parity passed",
   "official": false,
   "source_repository": "https://github.com/EGalahad/mimic-lite",
-  "source_commit": null,
-  "weights_url": "https://drive.usercontent.google.com/download?id=1UsdiBBQuhFcLSXvITjjhuSY-vhMrxYuy&export=download"
+  "source_commit": "3253810ce21dbcc05d8f4942a017ea3eaffc6cf1",
+  "weights_url": "https://drive.usercontent.google.com/download?id=1UsdiBBQuhFcLSXvITjjhuSY-vhMrxYuy&export=download",
+  "author_inference_repository": "https://github.com/EGalahad/sim2real",
+  "author_inference_commit": "287ac157e6a7143340da7a9fc2fa5ff552031bc8"
 }

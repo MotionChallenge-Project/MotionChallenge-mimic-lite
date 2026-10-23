@@ -5,9 +5,11 @@ from motion_challenge.adapters.onnx import ONNXController
 
 
 def projected_heading(rotation):
-    # Project quaternion onto its w/z subspace, as specified by this release.
-    q=rotation.as_quat();a=np.array([0.,0.,q[2],q[3]])
-    return R.from_quat(a/np.linalg.norm(a))
+    # Author convention: horizontal x-axis, with a signed z-axis fallback.
+    matrix=rotation.as_matrix()
+    x,z=matrix[:,0],matrix[:,2]
+    heading=x[:2] if np.linalg.norm(x[:2])>.1 else z[:2]*(1 if x[2]<0 else -1)
+    return R.from_euler('z',np.arctan2(heading[1],heading[0]))
 
 
 class MimicLite(ONNXController):

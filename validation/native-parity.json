@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "cases": 160,
+  "resets": 4,
+  "max_abs_error": {
+    "policy": 5.94979592261069e-08,
+    "command": 5.8371630196063506e-08,
+    "network": 0.0,
+    "action": 0.0,
+    "motor_target": 0.0,
+    "reset_history": 1.1102230246251565e-16,
+    "synthetic_motor_target": 0.0
+  },
+  "limits": {
+    "policy": 0.0002,
+    "command": 0.0002,
+    "network": 0.0,
+    "action": 0.0002,
+    "motor_target": 0.0002,
+    "reset_history": 0.0002,
+    "synthetic_motor_target": 0.0002
+  },
+  "max_abs_native_action": 3.4089746475219727,
+  "checkpoint_sha256": "031b8d67557795d86e4ed3f30e7a707414534feba65f330c64f1b07a1f5c7a0b",
+  "source_commit": "287ac157e6a7143340da7a9fc2fa5ff552031bc8",
+  "scope": "Original author deployment observation modules, history reset, projected heading including near-vertical poses, ONNX call and raw action-to-target conversion; shuffled SDK joints. Hardware/transport and dataset loaders omitted. Production adapter has no external deployment dependency."
+}
