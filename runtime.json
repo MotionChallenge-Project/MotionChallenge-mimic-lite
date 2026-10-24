@@ -1,5 +1,5 @@
 {
-  "id": "mimic-lite-g1-development-v1",
+  "id": "mimic-lite-g1-v1",
   "entrypoint": "restricted:create",
   "control_period_s": 0.02,
   "reference_step_s": 0.02,
@@ -49,7 +49,7 @@
       ]
     }
   },
-  "provenance_status": "author-inference parity passed",
+  "provenance_status": "Author inference comparison passed; see validation/native-parity.json",
   "official": false,
   "source_repository": "https://github.com/EGalahad/mimic-lite",
   "source_commit": "3253810ce21dbcc05d8f4942a017ea3eaffc6cf1",
@@ -58,6 +58,6 @@
   "author_inference_commit": "287ac157e6a7143340da7a9fc2fa5ff552031bc8",
   "observation_contract": {
     "admission_record": "admission.json",
-    "admission_sha256": "ab7da992b0be10b5e0484811ae90dbc446b4c505742d80b911c1eed92e726bc4"
+    "admission_sha256": "06c3cc48778104a3b60062ae613bea3c3ff33308cc492ac288ca882adf7af183"
   }
 }
