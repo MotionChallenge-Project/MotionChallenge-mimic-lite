@@ -1,6 +1,6 @@
 {
   "id": "mimic-lite-g1-development-v1",
-  "entrypoint": "adapter:create",
+  "entrypoint": "restricted:create",
   "control_period_s": 0.02,
   "reference_step_s": 0.02,
   "reference_steps": [
@@ -25,7 +25,7 @@
   ],
   "reference_history_s": 0.16,
   "reference_preview_s": 0.08,
-  "state_access": "privileged-state-v0",
+  "state_access": "ideal-proprioceptive-no-position-v1",
   "action_mode": "joint-pd-feedforward",
   "inference_config": "policy.json",
   "inference_config_sha256": "05f0211249ba531cf7382559a3a27e0fbefbbfbb51da131e417c9a24a6e6aec4",
@@ -56,12 +56,8 @@
   "weights_url": "https://drive.usercontent.google.com/download?id=1UsdiBBQuhFcLSXvITjjhuSY-vhMrxYuy&export=download",
   "author_inference_repository": "https://github.com/EGalahad/sim2real",
   "author_inference_commit": "287ac157e6a7143340da7a9fc2fa5ff552031bc8",
-  "default_track": "ideal-proprioception",
-  "observation_tracks": {
-    "ideal-proprioception": {
-      "entrypoint": "restricted:create",
-      "admission_record": "admission.json",
-      "admission_sha256": "ab7da992b0be10b5e0484811ae90dbc446b4c505742d80b911c1eed92e726bc4"
-    }
+  "observation_contract": {
+    "admission_record": "admission.json",
+    "admission_sha256": "ab7da992b0be10b5e0484811ae90dbc446b4c505742d80b911c1eed92e726bc4"
   }
 }
