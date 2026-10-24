@@ -55,5 +55,13 @@
   "source_commit": "3253810ce21dbcc05d8f4942a017ea3eaffc6cf1",
   "weights_url": "https://drive.usercontent.google.com/download?id=1UsdiBBQuhFcLSXvITjjhuSY-vhMrxYuy&export=download",
   "author_inference_repository": "https://github.com/EGalahad/sim2real",
-  "author_inference_commit": "287ac157e6a7143340da7a9fc2fa5ff552031bc8"
+  "author_inference_commit": "287ac157e6a7143340da7a9fc2fa5ff552031bc8",
+  "default_track": "ideal-proprioception",
+  "observation_tracks": {
+    "ideal-proprioception": {
+      "entrypoint": "restricted:create",
+      "admission_record": "admission.json",
+      "admission_sha256": "ab7da992b0be10b5e0484811ae90dbc446b4c505742d80b911c1eed92e726bc4"
+    }
+  }
 }

@@ -1,0 +1,48 @@
+{
+  "schema": "MotionChallenge/observation-admission-v1",
+  "model": "mimic-lite",
+  "display_name": "MimicLite 031b8d67",
+  "state_access": "ideal-proprioceptive-no-position-v1",
+  "status": "inference_verified",
+  "checkpoint_sha256": "031b8d67557795d86e4ed3f30e7a707414534feba65f330c64f1b07a1f5c7a0b",
+  "auxiliary_artifacts": {},
+  "checkpoint_origin": {
+    "author_release_url": "https://github.com/EGalahad/mimic-lite/blob/3253810ce21dbcc05d8f4942a017ea3eaffc6cf1/README.md",
+    "author_release_label": "EGalahad/mimic-lite",
+    "kind": "author_file",
+    "kind_label": "Author-released checkpoint",
+    "artifact_page_url": "https://drive.google.com/drive/folders/1xRmcOX0l-YIpqxUuCmW4s6Dl0HStbJSL",
+    "original_filename": "PPO / policy.onnx",
+    "verification": "The author README links this PPO Drive folder, whose recorded listing contains the exact policy file ID used by the adapter. The download host is Google Drive, not a separate model publisher.",
+    "download_url": "https://drive.usercontent.google.com/download?id=1UsdiBBQuhFcLSXvITjjhuSY-vhMrxYuy&export=download",
+    "sha256": "031b8d67557795d86e4ed3f30e7a707414534feba65f330c64f1b07a1f5c7a0b"
+  },
+  "author_source": "https://github.com/EGalahad/mimic-lite",
+  "author_commit": "3253810ce21dbcc05d8f4942a017ea3eaffc6cf1",
+  "base_adapter_commit": "2593d5e844237e9bf80cd0da2579cc039506e490",
+  "production_source_sha256": {
+    "adapter.py": "1af0384d4f4f47121a7bcd6fb349de2366b5a34cb715d66a31cc0da8b5f32c99",
+    "evaluate.py": "0ebb8c761f00dd963f2e45c85ecb94628273911bb1edfc0f2621e8fc458cb4ff",
+    "native-sources.json": "1dbb15e1c7c73deb1282a6f749740a9e3bc056fa6c68455cb54c6d6e657e6360",
+    "policy.json": "05f0211249ba531cf7382559a3a27e0fbefbbfbb51da131e417c9a24a6e6aec4",
+    "validate_inference.py": "c143cf918fb6a50a6aea16734ae949b1ae8424695e5b8e0640b88be1a5813aca"
+  },
+  "prior_native_parity_sha256": {
+    "validation/native-parity.json": "b676ce11aee1b9e6d89abc6acfb26d648b4cb82bf0b8b3b9651444c311c04c56"
+  },
+  "handling": "031b8d67 is the ONNX SHA256 prefix, not a W&B run ID. Reference translation is centered on the REFERENCE anchor; the heading transform uses permitted orientation. No actual-position estimate.",
+  "actual_position_integration": "No explicit integration or odometry in the inspected deployed adapter source; blocked paths are listed separately.",
+  "special_handling": "FK of allowed state at fixed synthetic origin (0,0,0); never actual measured origin.",
+  "new_evaluation": {
+    "status": "queued",
+    "inherited_scores": false
+  },
+  "repository": "https://github.com/MotionChallenge-Project/MotionChallenge-mimic-lite",
+  "dependency_test": {
+    "path": "validation/observation-access.json",
+    "sha256": "b8ddaea9655093ed7321ac91f5644e9cccbac0a4943f9750e7d9bbda4c166258",
+    "code": "validate_observations.py",
+    "cases": 160,
+    "resets": 4
+  }
+}
