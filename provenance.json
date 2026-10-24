@@ -1,13 +1,12 @@
 {
   "model": "mimic-lite",
   "submitter": "MotionChallenge",
-  "submission_type": "maintainer reproduction, not author submission",
+  "submission_type": "MotionChallenge reproduction",
   "upstream": "https://github.com/EGalahad/mimic-lite",
   "source_commit": "3253810ce21dbcc05d8f4942a017ea3eaffc6cf1",
   "checkpoint_sha256": "031b8d67557795d86e4ed3f30e7a707414534feba65f330c64f1b07a1f5c7a0b",
   "author_inference_review": "Numerical comparison against pinned author inference: validation/native-parity.json",
-  "benchmark_physics": "shared G1 canonical profile, not the author training simulator",
-  "legacy_results": "not transferable to this adapter revision without rerunning",
+  "benchmark_physics": "Shared canonical G1 nominal physics and initialization.",
   "redistribution": "checkpoint not distributed in Git; obtain from recorded upstream URL under its original terms",
   "checkpoint_origin": {
     "author_release_url": "https://github.com/EGalahad/mimic-lite/blob/3253810ce21dbcc05d8f4942a017ea3eaffc6cf1/README.md",
