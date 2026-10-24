@@ -1,6 +1,6 @@
 {
   "model": "mimic-lite",
-  "submitter": "Motion Challenge",
+  "submitter": "MotionChallenge",
   "submission_type": "maintainer reproduction, not author submission",
   "upstream": "https://github.com/EGalahad/mimic-lite",
   "source_commit": "3253810ce21dbcc05d8f4942a017ea3eaffc6cf1",

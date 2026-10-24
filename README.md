@@ -1,12 +1,12 @@
-# Motion Challenge · mimic-lite
+# MotionChallenge · mimic-lite
 
 [Author project](https://github.com/EGalahad/mimic-lite) · [Checkpoint](https://drive.google.com/drive/folders/1xRmcOX0l-YIpqxUuCmW4s6Dl0HStbJSL) · [Provenance](provenance.json)
 
 ## Install and run
 
 ```bash
-git clone --recurse-submodules https://github.com/MotionChallenge-Project/motion-challenge-mimic-lite.git
-cd motion-challenge-mimic-lite
+git clone --recurse-submodules https://github.com/MotionChallenge-Project/MotionChallenge-mimic-lite.git
+cd MotionChallenge-mimic-lite
 uv sync
 uv run evaluate.py
 ```
