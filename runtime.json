@@ -58,6 +58,8 @@
   "author_inference_commit": "287ac157e6a7143340da7a9fc2fa5ff552031bc8",
   "observation_contract": {
     "admission_record": "admission.json",
-    "admission_sha256": "06c3cc48778104a3b60062ae613bea3c3ff33308cc492ac288ca882adf7af183"
-  }
+    "admission_sha256": "faf8f99f4ee721e8a6561afc94e9d98b2017fb8fe46fcad03b31e5e92ebb1938"
+  },
+  "batch_entrypoint": "parallel:create",
+  "inference_workers": 2
 }
