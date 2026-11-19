@@ -1,0 +1,71 @@
+{
+  "id": "mimic-lite-g1-v1",
+  "entrypoint": "restricted:create",
+  "control_period_s": 0.02,
+  "reference_step_s": 0.02,
+  "reference_steps": [
+    -8,
+    -4,
+    -2,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "reference_offsets_s": [
+    -0.16,
+    -0.08,
+    -0.04,
+    0.0,
+    0.02,
+    0.04,
+    0.06,
+    0.08
+  ],
+  "reference_history_s": 0.16,
+  "reference_preview_s": 0.08,
+  "state_access": "proprioceptive-no-position-no-linear-velocity-v1",
+  "action_mode": "joint-pd-feedforward",
+  "inference_config": "policy.json",
+  "inference_config_sha256": "05f0211249ba531cf7382559a3a27e0fbefbbfbb51da131e417c9a24a6e6aec4",
+  "weights": "checkpoints/policy.onnx",
+  "weights_sha256": "031b8d67557795d86e4ed3f30e7a707414534feba65f330c64f1b07a1f5c7a0b",
+  "virtual_bodies": {
+    "left_toe_link": {
+      "parent": "left_ankle_roll_link",
+      "position_parent_m": [
+        0.1,
+        0.0,
+        -0.02
+      ]
+    },
+    "right_toe_link": {
+      "parent": "right_ankle_roll_link",
+      "position_parent_m": [
+        0.1,
+        0.0,
+        -0.02
+      ]
+    }
+  },
+  "provenance_status": "Author inference comparison passed; see validation/native-parity.json",
+  "official": false,
+  "source_repository": "https://github.com/EGalahad/mimic-lite",
+  "source_commit": "3253810ce21dbcc05d8f4942a017ea3eaffc6cf1",
+  "weights_url": "https://drive.usercontent.google.com/download?id=1UsdiBBQuhFcLSXvITjjhuSY-vhMrxYuy&export=download",
+  "author_inference_repository": "https://github.com/EGalahad/sim2real",
+  "author_inference_commit": "287ac157e6a7143340da7a9fc2fa5ff552031bc8",
+  "observation_contract": {
+    "admission_record": "admission.mjwarp.json",
+    "admission_sha256": "84f8f9f9cc8b9a7853a6cdfd6d5ec46ef0e15ffd40ffa027f0ee187720ad22ac"
+  },
+  "batch_entrypoint": "parallel:create",
+  "inference_workers": 2,
+  "migration_status": "inference_verified",
+  "tensor_entrypoint": "tensor_adapter:TensorMimicLite",
+  "tensor_conversion": "convert_weights:prepare",
+  "tensor_outputs": [
+    "action"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "author_release_verified",
+  "sha256": "031b8d67557795d86e4ed3f30e7a707414534feba65f330c64f1b07a1f5c7a0b",
+  "author_release_url": "https://github.com/EGalahad/mimic-lite/blob/3253810ce21dbcc05d8f4942a017ea3eaffc6cf1/README.md",
+  "artifact_url": "https://drive.usercontent.google.com/download?id=1UsdiBBQuhFcLSXvITjjhuSY-vhMrxYuy&export=download",
+  "original_filename": "PPO / policy.onnx",
+  "verification_scope": "The author README links this PPO Drive folder, whose recorded listing contains the exact policy file ID used by the adapter. The download host is Google Drive, not a separate model publisher.",
+  "upstream_source_commit": "3253810ce21dbcc05d8f4942a017ea3eaffc6cf1"
+}

@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "reference": "original ONNX ReferenceEvaluator per sample",
+  "source_sha256": "031b8d67557795d86e4ed3f30e7a707414534feba65f330c64f1b07a1f5c7a0b",
+  "graph_sha256": "337606daa870fd5ceb4cf093a60803212c0548e015952b42c59c14619dcc6bb9",
+  "weights_sha256": "14b91456d9c92b772454b69bdc0b74da7c42067f912e57e197b8bc7e121da163",
+  "max_abs_error": 4.0531158447265625e-06,
+  "cases": [
+    {
+      "batch": 1,
+      "device": "cpu",
+      "max_abs_error": {
+        "action": 2.384185791015625e-06
+      }
+    },
+    {
+      "batch": 1,
+      "device": "cuda:3",
+      "max_abs_error": {
+        "action": 8.344650268554688e-07
+      }
+    },
+    {
+      "batch": 7,
+      "device": "cpu",
+      "max_abs_error": {
+        "action": 1.6689300537109375e-06
+      }
+    },
+    {
+      "batch": 7,
+      "device": "cuda:3",
+      "max_abs_error": {
+        "action": 2.6226043701171875e-06
+      }
+    },
+    {
+      "batch": 40,
+      "device": "cpu",
+      "max_abs_error": {
+        "action": 2.6226043701171875e-06
+      }
+    },
+    {
+      "batch": 40,
+      "device": "cuda:3",
+      "max_abs_error": {
+        "action": 1.9073486328125e-06
+      }
+    },
+    {
+      "batch": 256,
+      "device": "cpu",
+      "max_abs_error": {
+        "action": 4.0531158447265625e-06
+      }
+    },
+    {
+      "batch": 256,
+      "device": "cuda:3",
+      "max_abs_error": {
+        "action": 3.2186508178710938e-06
+      }
+    }
+  ]
+}
